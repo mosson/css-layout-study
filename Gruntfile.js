@@ -11,16 +11,24 @@ module.exports = function (grunt) {
       }
     },    
     connect: {  
+      // 開発用 connect
       server: {
         options: {
-          // localhost:9001 のサーバーを立てる
           port: 9001,
           base: 'lesson1/'
+        }
+      },
+      // 閲覧用 connect 
+      production: {
+        options: {
+          port: 9001,
+          base: 'lesson1/',
+          keepalive: true
         }
       }      
     },
     livereload: {
-      // localhost:35729 のサーバーを立てる
+      // livereload用 localhost:35729 のサーバーを立てる
       port: 35729
     },
     regarde: {
@@ -39,6 +47,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-livereload');
   grunt.loadNpmTasks('grunt-contrib-connect');
   
-  grunt.registerTask('default', ['livereload-start', 'connect' ,'regarde']);
+  grunt.registerTask('default', ['livereload-start', 'connect:server' ,'regarde']);
+  grunt.registerTask('production', ['sass', 'connect:production']);
 }
 
