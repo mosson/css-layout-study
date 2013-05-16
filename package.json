@@ -1,14 +1,10 @@
 {
   "name": "css-layout-study",
   "version": "0.0.0",
-  "description": "css-layout-study ================",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/a-munakata/css-layout-study.git"
   },
-  "author": "",
-  "license": "BSD",
   "readmeFilename": "README.md",
   "gitHead": "a0ec52e2e3afe065d6dab3fd88ade77940b62994",
   "devDependencies": {
