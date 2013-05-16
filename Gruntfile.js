@@ -12,7 +12,7 @@ module.exports = function (grunt) {
     },    
     connect: {  
       // 開発用 connect
-      server: {
+      lesson1_server: {
         options: {
           port: 9001,
           base: 'lesson1/'
@@ -47,7 +47,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-livereload');
   grunt.loadNpmTasks('grunt-contrib-connect');
   
-  grunt.registerTask('default', ['livereload-start', 'connect:server' ,'regarde']);
+  grunt.registerTask('default', ['livereload-start', 'connect:lesson1_server' ,'regarde']);
   grunt.registerTask('production', ['sass', 'connect:production']);
 }
 
