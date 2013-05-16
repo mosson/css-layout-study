@@ -1,0 +1,50 @@
+/* Utils
+--------------- */
+.clearfix {
+	zoom: 1;
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+/* Styles
+--------------- */
+$color-gray: #4b4b4b;
+$color-blue: #73b1c0;
+
+body {
+	background: $color-gray;		
+	margin: 0px;
+	padding: 0px;
+
+}
+/* Header */
+header {
+	background: $color-gray;
+	height: 50px;
+}
+/* Main */
+.main {
+	background: $color-blue;
+	> .inner {
+		margin-left: 152px;
+		background: #fff;
+		min-height: 400px;
+		nav.nav-aside {
+			width: 152px;
+			min-height: 400px;
+			margin-left: -152px;
+			float: left;
+			background: $color-blue;
+		}
+	}		
+}
+/* Footer */
+footer {
+	background: $color-gray;
+	min-height: 50px;
+	height: auto!important;
+	height: 50px;		
+}
