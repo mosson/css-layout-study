@@ -2,8 +2,12 @@ css-layout-study
 ================
 
 ## サーバーの起動
-Gruntfile.jsでdefaultの設定がされているので、`grunt`コマンドを実行します。
+サーバーはGruntfile.jsでデフォルトで起動するようになっているので、`grunt`コマンドを実行すれば立ち上がります。
+grunt-connectで:9001ポートにアクセスします。
 
-http://localhost:9001/lesson1/index.html
-にアクセスするとサーバーが起動しています。
+```
+http://localhost:9001/
+```
+
+
 
