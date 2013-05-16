@@ -1,12 +1,7 @@
 {
   "name": "css-layout-study",
   "version": "0.0.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/a-munakata/css-layout-study.git"
-  },
   "readmeFilename": "README.md",
-  "gitHead": "a0ec52e2e3afe065d6dab3fd88ade77940b62994",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-connect": "~0.3.0",
