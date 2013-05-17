@@ -1,0 +1,52 @@
+/* Utils
+--------------- */
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Styles
+--------------- */
+body {
+  background: #4b4b4b;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header */
+header {
+  background: #4b4b4b;
+  height: 50px;
+}
+
+/* Main */
+.main {
+  background: #73b1c0;
+}
+.main > .inner {
+  margin-left: 152px;
+  background: #fff;
+  min-height: 400px;
+}
+.main > .inner nav.nav-aside {
+  width: 152px;
+  min-height: 400px;
+  margin-left: -152px;
+  float: left;
+  background: #73b1c0;
+}
+.main > .inner .contents {
+  word-wrap: break-word;
+}
+
+/* Footer */
+footer {
+  background: #4b4b4b;
+  min-height: 50px;
+  height: auto !important;
+  height: 50px;
+}
