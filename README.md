@@ -23,19 +23,19 @@ JavaScriptを使わないで以下のレイアウトを組む
 
 #### LESSON1
 
-![](https://raw.github.com/mosson/css-layout-study/solve/src/lesson1/lesson1.gif)
+![](https://raw.github.com/mosson/css-layout-study/master/src/lesson1/lesson1.gif)
 
 #### LESSON2
 
-![](https://raw.github.com/mosson/css-layout-study/solve/src/lesson2/lesson2.gif)
+![](https://raw.github.com/mosson/css-layout-study/master/src/lesson2/lesson2.gif)
 
 #### LESSON3
 
-![](https://raw.github.com/mosson/css-layout-study/solve/src/lesson3/lesson3.gif)
+![](https://raw.github.com/mosson/css-layout-study/master/src/lesson3/lesson3.gif)
 
 #### LESSON4
 
-![](https://raw.github.com/mosson/css-layout-study/solve/src/lesson4/lesson4.gif)
+![](https://raw.github.com/mosson/css-layout-study/master/src/lesson4/lesson4.gif)
 
 ### ポイント
 
