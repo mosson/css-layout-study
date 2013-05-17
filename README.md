@@ -1,7 +1,7 @@
 css-layout-study
 ================
 
-###dependencies
+### dependencies
 
 - node
 - grunt-cli
@@ -19,3 +19,11 @@ $ bower install underscore
 # run server
 $ grunt
 ```
+
+### ポイント
+
+#### LESSON1
+
+- CSSでの高さの仕組みを理解する
+- 見た目上の高さと要素の高さのトリックを理解する
+- 引き算で考える
