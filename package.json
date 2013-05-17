@@ -1,0 +1,12 @@
+{
+  "name": "css-layout-study",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "x.x.x",
+    "grunt-contrib-livereload": "x.x.x",
+    "grunt-contrib-sass": "x.x.x",
+    "grunt-contrib-coffee": "x.x.x",
+    "grunt-regarde": "x.x.x"
+  }
+}
