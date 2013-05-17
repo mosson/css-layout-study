@@ -1,28 +1,20 @@
 css-layout-study
 ================
 
-これはCSSのレイアウトを学ぶサンプルです。
+これはCSSのトリックレイアウトを学ぶサンプルです。
 ベーシックなものではありません。
 
 ## dependencies
 
-以下をおのおのインストールしておくこと
+事前に以下をインストールしておくこと
 
 - node
 - grunt-cli
 
 ## usage 
 ```
-$ npm install
-
-$ bower install
-# or
-$ bower install jquery
-$ bower install backbone
-$ bower install underscore
-
-# run server
-$ grunt
+$ npm install # install dependencies
+$ grunt # run server
 ```
 
 ## 問題
