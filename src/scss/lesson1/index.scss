@@ -8,7 +8,6 @@
 		clear: both;
 	}
 }
-
 /* Styles
 --------------- */
 $color-gray: #4b4b4b;
@@ -38,6 +37,9 @@ header {
 			margin-left: -152px;
 			float: left;
 			background: $color-blue;
+		}
+		.contents {
+			word-wrap: break-word;
 		}
 	}		
 }

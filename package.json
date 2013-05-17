@@ -1,21 +1,12 @@
 {
   "name": "css-layout-study",
   "version": "0.0.0",
-  "description": "css-layout-study ================",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/a-munakata/css-layout-study.git"
-  },
-  "author": "",
-  "license": "BSD",
   "readmeFilename": "README.md",
-  "gitHead": "a0ec52e2e3afe065d6dab3fd88ade77940b62994",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-connect": "~0.3.0",
     "grunt-contrib-livereload": "~0.1.2",
     "grunt-regarde": "~0.1.1",
-    "grunt-contrib-sass": "~0.3.0",
+    "grunt-contrib-sass": "~0.3.0"
   }
 }
