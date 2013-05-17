@@ -1,13 +1,12 @@
 
-module.exports = function (grunt) { 
-
+module.exports = function (grunt) {   
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-regarde');
   grunt.loadNpmTasks('grunt-contrib-livereload');
   grunt.loadNpmTasks('grunt-contrib-connect');
 
   // レッスン数  
-  var LESSON_N = 2;
+  var LESSON_N = 1;
 
   var sass_path = function(n) {
   var result = {};
