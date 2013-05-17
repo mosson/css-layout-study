@@ -11,11 +11,18 @@ module.exports = function (grunt) {
       }
     },    
     connect: {  
-      server: {
+      server1: {
         options: {
-          // localhost:9001 のサーバーを立てる
+          // localhost:9001 のサーバーを立てる          
           port: 9001,
           base: 'lesson1/'
+        }
+      },
+      server2: {
+        options: {
+          // localhost:9002 のサーバーを立てる
+          port: 9002,
+          base: 'lesson2/'
         }
       }      
     },
