@@ -1,0 +1,43 @@
+
+/* Utils
+--------------- */
+.clearfix {
+	zoom: 1;
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+/* Styles
+--------------- */
+body, ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+.grid-layout {
+	zoom: 1;
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	@for $i from 1 through 5 {
+		li{
+			&:nth-last-child(#{$i}),
+			&:nth-last-child(#{$i}) ~ li {
+        width: (100%/$i);
+    	}
+		}
+	}
+	.grid-layout-li {
+		list-style: none;					
+		float: left;
+		> div {
+			margin: 5px;
+			background : #ff0000;
+			height: 40px;
+		}
+	}
+}
