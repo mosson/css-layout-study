@@ -1,1 +1,1 @@
-html,body{background:red}
+html,body{background:#4b4b4b}body>header,body>footer{height:50px}body>.main{background:#73b1c0}body>.main>.inner{margin-left:152px;background:#fff;zoom:1}body>.main>.inner:after{content:"";display:block;clear:both}body>.main .sidebar,body>.main .cotent{float:left}body>.main .sidebar{margin-left:-152px;width:152px}body>.main .dummy{min-height:400px}
