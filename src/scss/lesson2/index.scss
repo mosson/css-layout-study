@@ -25,9 +25,9 @@ body, ul, li {
 	}
 	@for $i from 1 through 5 {
 		li{
-			&:nth-last-child(#{$i}),
-			&:nth-last-child(#{$i}) ~ li {
-        width: (100%/$i);
+			&:first-child:nth-last-child(#{$i}),
+			&:first-child:nth-last-child(#{$i}) ~ li {
+        width: (100% / $i);
     	}
 		}
 	}
