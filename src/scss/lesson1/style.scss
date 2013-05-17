@@ -39,6 +39,9 @@ header {
 			float: left;
 			background: $color-blue;
 		}
+		.contents {
+			word-wrap: break-word;
+		}
 	}		
 }
 /* Footer */
