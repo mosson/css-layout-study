@@ -36,8 +36,4 @@ http://localhost:9001/lesson1/
 
 こんにちは
 
-<<<<<<< HEAD
-
-=======
->>>>>>> lesson1
 hello
