@@ -1,3 +1,5 @@
-node_modules
+node_modules/
 .DS_Store
-app/lesson2/
+.sass-cache
+app/lesson1/css/index.css
+app/lesson2/css/index.css
