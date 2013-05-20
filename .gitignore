@@ -3,3 +3,5 @@ node_modules/
 .sass-cache
 app/lesson1/css/index.css
 app/lesson2/css/index.css
+app/lesson3/css/index.css
+app/lesson4/css/index.css
