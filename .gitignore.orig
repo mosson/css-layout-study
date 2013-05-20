@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+node_modules
+.DS_Store
+app/lesson2/
+=======
+node_modules/
+.DS_Store
+.sass-cache
+app/lesson1/css/index.css
+app/lesson2/css/index.css
+>>>>>>> munakata
