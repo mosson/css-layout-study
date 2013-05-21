@@ -1,0 +1,37 @@
+/* Styles
+--------------- */
+body {
+	margin: 0px;
+	padding: 0px;	
+}	
+.modal-win, .modal-win > .close , .modal-inner{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: auto;
+	overflow: hidden;
+	display: block;
+}
+.links {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	z-index: 2;
+}
+.modal-win:target {
+	display: block;
+}
+.modal-win {
+	background: rgba(0,0,0,0.5);
+	display: none;
+	z-index: 1;
+	> .modal-inner {
+		margin-top: 50px;
+		margin-left: 50px;	
+		margin-right: 50px;
+		margin-bottom: 50px;
+		background: #fff;
+	}
+}
