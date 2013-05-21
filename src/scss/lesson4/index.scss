@@ -1,0 +1,53 @@
+/* Styles
+--------------- */
+body {
+	margin: 0px;
+	padding: 0px;
+	> .main, .modal-win, .modal-win > a , .modal-inner{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		overflow: auto;
+		height: auto;
+		display: block;
+	}
+	> .main {
+		z-index: 3;
+		overflow: hidden;
+		top: 0%;
+	}
+	.modal-win {
+		background: rgba(0,0,0,0.5);		
+		&.modal0 {
+			background: #fff;
+			top: 0%;
+			bottom: 0%;
+		}
+		&.modal1 {
+			top: 100%;
+			bottom: -100%;
+		}
+		&.modal2 {
+			top: 200%;
+			bottom: -200%;
+		}
+	}
+}	
+
+.links {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	z-index: 10;
+}
+
+.modal1 .modal-inner,
+.modal2 .modal-inner {
+	top: 50px;
+	left: 50px;
+	bottom: 50px;
+	right: 50px;
+	background: #fff;
+}
