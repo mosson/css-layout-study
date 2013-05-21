@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta charset="utf-8" />	
+	<title>lesson4</title>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css" />
+	<link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="main">		
+		<span class="links">
+			<a href="#MODAL1">modal1</a>		
+			<a href="#MODAL2">modal2</a>
+		</span>
+		
+		<a name="MODAL0" class="MODAL0">			
+			<div class="modal0 modal-win">
+			</div>
+		</a><!-- /.MODAL0 -->
+
+		<a name="MODAL1" class="MODAL1"></a>
+		<div class="modal1 modal-win">
+			<a href="#MODAL0"></a>
+			<div class="modal-inner">
+				<span>This is modal1</span>
+			</div>
+		</div><!-- /.MODAL1 -->
+		
+		<a name="MODAL2" class="MODAL2"></a>		
+		<div class="modal2 modal-win">
+		<a href="#MODAL0"></a>
+			<div class="modal-inner">
+				<span>This is modal2</span>
+			</div>			
+		</div><!-- /.MODAL2 -->
+		
+	</div><!-- /.main -->
+</body>
+</html>

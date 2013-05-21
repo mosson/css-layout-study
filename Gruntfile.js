@@ -6,7 +6,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
 
   // レッスン数  
-  var LESSON_N = 3;
+  var LESSON_N = 4;
 
   var sass_path = function(n) {
   var result = {};
